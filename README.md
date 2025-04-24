@@ -3,7 +3,7 @@
 ⭐ This code has been completely released ⭐
 
 ⭐ Overall framework of the MDCL model⭐ 
-[framework9.pdf](https://github.com/user-attachments/files/19881432/framework9.pdf)
+![framework](https://github.com/user-attachments/assets/f6e61ea3-ce02-4371-be7f-39bad37f7957)
 Overall framework of the MDCL model.
 
 ⭐ The HGA dataset refers to our previous work:[ https://github.com/528Lab/CAData](https://github.com/528Lab/CAData)⭐ 
