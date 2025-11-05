@@ -1,5 +1,5 @@
 # MDCL
-# Multi-level Graph Contrastive Learning for Cold-start Recommendation in Mashup Development
+# Multi-level Dual Contrastive Learning for Cloud API Cold-Start Recommendation
 ⭐ This code has been completely released ⭐
 
 ⭐ Overall framework of the MDCL model⭐ 
@@ -10,8 +10,42 @@ Overall framework of the MDCL model.
 
 ⭐ The PWA dataset refers to: [https://github.com/kkfletch/API-Dataset](https://github.com/kkfletch/API-Dataset)⭐ 
 
-## 1. Environment
+## Environment
 
 - **Python**: 3.9.16  
 - **PyTorch**: 2.0.1  
-- Common dependencies: `numpy`, `pandas`, `scikit-learn`, `tqdm` (and other standard utilities).
+- Common dependencies: `numpy`, `pandas`, `scikit-learn`, `tqdm`
+
+---
+
+## Dataset Preparation
+
+Download datasets from the official sources above and organize them as:
+
+    data/
+      HGA/    # files from CAData
+      PWA/    # files from API-Dataset
+
+---
+
+## Reproducible Workflow 
+**Data processing**
+    
+    python data_processing.py
+
+**Data splitting**
+    
+    python split_data.py
+
+**Model training & evaluation**
+    
+    python recommender.py
+
+If your folder layout differs, adjust only the data path arguments/constants;
+
+---
+
+
+
+
+
