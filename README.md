@@ -39,7 +39,7 @@ Download datasets from the official sources above and organize them as:
 
 **Model training & evaluation**
     
-    python recommender.py
+    python MDCL.py
 
 If your folder layout differs, adjust only the data path arguments/constants;
 
