@@ -28,7 +28,7 @@ Download datasets from the official sources above and organize them as:
 
 ---
 
-## Reproducible Workflow 
+## Workflow 
 **Data processing**
     
     python data_processing.py
@@ -41,7 +41,7 @@ Download datasets from the official sources above and organize them as:
     
     python MDCL.py
 
-If your folder layout differs, adjust only the data path arguments/constants;
+If your folder layout differs, adjust the data path arguments/constants;
 
 ---
 
